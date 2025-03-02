@@ -5,6 +5,7 @@ members = [
     "ch012-hashmap-hashset",
     "ch013-iterator",
     "ch014-time-chrono",
-    "ch015-thread"]
+    "ch015-thread",
+    "ch016-scope-thread"]
 
 resolver = "3"
