@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "ch001-hello",
+    "ch011-vector",
+    "ch012-hashmap-hashset"
+]
+
+resolver = "3"
