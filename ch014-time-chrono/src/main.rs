@@ -27,9 +27,7 @@ fn main() {
     date1
         .iter_days()
         .take(4)
-        .for_each(|d| {
-        println!("{}", d.format("%j"))
-    });
+        .for_each(|d| println!("{}", d.format("%j")));
     // 从给定的年份和一年中的天数（即一年中的第几天，通常称为“year and ordinal day”或简称“yo”）创建一个NaiveDate实例
     let date2 = chrono::NaiveDate::from_yo_opt(2025, 365);
     println!("{}", date2.unwrap().format("%A"));
