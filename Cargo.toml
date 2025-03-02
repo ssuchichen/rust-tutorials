@@ -2,7 +2,8 @@
 members = [
     "ch001-hello",
     "ch011-vector",
-    "ch012-hashmap-hashset"
+    "ch012-hashmap-hashset",
+    "ch013-iterator"
 ]
 
 resolver = "3"
