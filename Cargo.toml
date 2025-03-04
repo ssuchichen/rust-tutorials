@@ -7,7 +7,8 @@ members = [
     "ch014-time-chrono",
     "ch015-thread",
     "ch016-scope-thread",
-    "ch017-share-thread-data"
+    "ch017-share-thread-data",
+    "ch018-message-passing"
 ]
 
 resolver = "3"
