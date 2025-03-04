@@ -26,7 +26,7 @@ fn main() {
         s.spawn(print_num);
         s.spawn(print_num);
         s.spawn(print_num);
-    });//所有在scope内启动的线程在此处自动join
+    }); //所有在scope内启动的线程在此处自动join
     // 在这里所有线程已经完成。
     println!("Giving control back to main thread.");
     println!("Your name is {}", person01.first_name);

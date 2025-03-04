@@ -6,6 +6,8 @@ members = [
     "ch013-iterator",
     "ch014-time-chrono",
     "ch015-thread",
-    "ch016-scope-thread"]
+    "ch016-scope-thread",
+    "ch017-share-thread-data"
+]
 
 resolver = "3"
