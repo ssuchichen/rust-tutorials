@@ -1,0 +1,12 @@
+[package]
+name = "ch020-cargo-tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = "4.5.31"
+crossterm = "0.28.1"
+ratatui = { version = "0.29.0", features = ["all-widgets"] }
+serde = "1.0.218"
+tokio = { version = "1.43.0", features = ["full"] }
+uuid = { version = "1.15.1", features = ["v4"] }

@@ -8,7 +8,8 @@ members = [
     "ch015-thread",
     "ch016-scope-thread",
     "ch017-share-thread-data",
-    "ch018-message-passing"
-]
+    "ch018-message-passing",
+    "ch019-file-api",
+    "ch020-cargo-tool"]
 
 resolver = "3"
