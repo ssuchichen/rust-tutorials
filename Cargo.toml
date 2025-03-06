@@ -10,6 +10,9 @@ members = [
     "ch017-share-thread-data",
     "ch018-message-passing",
     "ch019-file-api",
-    "ch020-cargo-tool"]
+    "ch020-cargo-tool",
+    "ch021-parse-cli-args",
+    "ch022-parse-args-with-clap"
+]
 
 resolver = "3"
