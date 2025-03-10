@@ -48,16 +48,16 @@ impl AnimalSound for Bear {
 impl Animal for Bear {}
 
 // generic type
-fn make_some_noise<T: AnimalSound>(a: T) {
+fn make_some_noise<T: Animal>(a: T) {
     a.make_sound();
 }
 
 // dynamic dispatch
-fn make_some_noise2(a: &dyn AnimalSound) {
+fn make_some_noise2(a: &dyn Animal) {
     a.make_sound();
 }
 
-fn eat_some_food(a: &dyn AnimalEating) {
+fn eat_some_food(a: &dyn Animal) {
     a.eat_food();
 }
 
