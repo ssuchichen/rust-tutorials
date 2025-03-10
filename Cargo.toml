@@ -13,6 +13,7 @@ members = [
     "ch020-cargo-tool",
     "ch021-parse-cli-args",
     "ch022-parse-args-with-clap",
-    "ch023-json"]
+    "ch023-json",
+    "ch024-send-http"]
 
 resolver = "3"
