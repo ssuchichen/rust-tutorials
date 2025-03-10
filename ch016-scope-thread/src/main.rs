@@ -1,4 +1,4 @@
-use std::thread::{scope, spawn};
+use std::thread::scope;
 
 struct Person {
     first_name: String,
