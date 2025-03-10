@@ -21,24 +21,6 @@ rustup default 1.79
 | `[dev-dependencies]` | `cargo test` <br/>`cargo bench` <br/>`cargo run --example` | 仅在测试或基准测试时    | ❌ 否       |
 
 
-### cargo build
-* 用途：用于构建标准的`Rust`应用或库。
-* 目标（Target）：编译为本机架构（如`x86_64`或`aarch64`）。
-* 不适用于`Solana`智能合约，因为`Solana`运行的是`BPF/SBF`目标架构，而非本机架构。
-### cargo build-bfp（旧版命令，已被build-sbf取代）
-### cargo build-sbf
-* 用途：用于编译 `Solana` 智能合约（以前的`Solana`运行时使用`BPF`，现已迁移到`SBF`）。
-* 目标（Target）：`bpfel-unknown-unknown`（`Solana`的`BPF`运行时）。
-* 输出文件：会生成 `.so` 共享库，存放在`target/deploy/`。
-
-| 命令                 | 目标架构                    | 适用场景            | 备注                |
-|--------------------|-------------------------|-----------------|-------------------|
-| `cargo build`	     | 本机架构（`x86_64/aarch64`）  | 	`Rust`应用程序、库	  | 不能用于`Solana`合约    |
-| `cargo build-bpf`	 | `bpfel-unknown-unknown` | 	旧版`Solana`智能合约 | 	已废弃，用`build-sbf` |
-| `cargo build-sbf`	 | `sbf-solana-solana`	    | 新版`Solana`智能合约	 | 推荐使用              |
-
-
-
 ## 重要概念
 
 ### Trait
