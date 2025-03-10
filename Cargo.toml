@@ -14,6 +14,6 @@ members = [
     "ch021-parse-cli-args",
     "ch022-parse-args-with-clap",
     "ch023-json",
-    "ch024-send-http"]
+    "ch024-send-http", "ch025-dynamic-dispatch"]
 
 resolver = "3"
