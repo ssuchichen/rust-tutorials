@@ -16,6 +16,7 @@ members = [
     "ch023-json",
     "ch024-send-http",
     "ch025-dynamic-dispatch",
-    "ch026-default-trait"]
+    "ch026-default-trait",
+    "ch027-operator-overloading"]
 
 resolver = "3"
