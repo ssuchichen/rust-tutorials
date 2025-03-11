@@ -19,7 +19,8 @@ members = [
     "ch026-default-trait",
     "ch027-operator-overloading",
     "ch030-async-function",
-    "ch031-async-future-trait"
+    "ch031-async-future-trait",
+    "ch036-unit-test"
 ]
 
 resolver = "3"
