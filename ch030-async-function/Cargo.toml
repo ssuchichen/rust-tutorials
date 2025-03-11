@@ -1,0 +1,8 @@
+[package]
+name = "ch030-async-function"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3.31"
+smol = "2.0.2"

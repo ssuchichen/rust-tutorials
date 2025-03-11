@@ -17,6 +17,9 @@ members = [
     "ch024-send-http",
     "ch025-dynamic-dispatch",
     "ch026-default-trait",
-    "ch027-operator-overloading"]
+    "ch027-operator-overloading",
+    "ch030-async-function",
+    "ch031-async-future-trait"
+]
 
 resolver = "3"

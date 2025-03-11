@@ -88,5 +88,8 @@ fn main() {
     };
 
     bill = bill + carrots + cheese;
-    println!("The total of your grocery bill is {}", bill.calculate_total());
+    println!(
+        "The total of your grocery bill is {}",
+        bill.calculate_total()
+    );
 }
