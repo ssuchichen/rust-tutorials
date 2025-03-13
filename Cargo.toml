@@ -20,7 +20,8 @@ members = [
     "ch027-operator-overloading",
     "ch030-async-function",
     "ch031-async-future-trait",
-    "ch036-unit-test"
+    "ch036-unit-test",
+    "ch039-validate-cmd-args-with-clap"
 ]
 
 resolver = "3"
