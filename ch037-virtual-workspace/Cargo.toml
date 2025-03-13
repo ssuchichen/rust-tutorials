@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "myapp",
+    "mylib"
+]
+
+resolver = "3"
