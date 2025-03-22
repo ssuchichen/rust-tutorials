@@ -1,6 +1,6 @@
 use clap::{Arg, Command, value_parser};
-use std::io::ErrorKind;
 use regex::Regex;
+use std::io::ErrorKind;
 
 fn type_validator() {
     let coat_types = ["winter", "rain", "hoodie"];
